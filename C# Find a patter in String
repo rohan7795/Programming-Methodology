@@ -1,0 +1,52 @@
+using System;
+
+public class HelloWorld
+{
+	static int freq =0;
+	static String final_patt;
+	static int max_freq = freq;
+	static int itteration =2;
+	
+	public static void create_patterns(String str1)
+	{
+		int create_patt1 = 0;
+		int create_patt2 = create_patt1 + itteration;
+		String patt;
+		
+		for (int k = 0; k < ((str1.Length / 2)-1); k++)
+		{
+			for (int i = 0; i < ((str1.Length - itteration) + 1); i++)
+			{
+				patt = str1.Substring(create_patt1, create_patt2);
+				compare_str(str1,patt);
+				freq =0;
+				
+				create_patt1++;
+			}
+			create_patt1 = 0;
+			create_patt2++;
+			itteration++;	
+		}
+	}
+	public static void compare_str(String str1, String patt){
+		int create_patt1_1 =0;
+		int create_patt2_1 =create_patt1_1+itteration;
+		String patt2;
+		
+			for (int i = 0; i < ((str1.Length - itteration) + 1); i++)
+			{
+				patt2 = str1.Substring(create_patt1_1, create_patt2_1);
+				
+				if(patt == patt2){
+					freq++;
+					if(freq>=max_freq){
+						max_freq  =freq;
+						final_patt =patt2;
+					}
+				}
+				create_patt1_1++;
+			}
+			create_patt1_1 = 0;
+			create_patt2_1++;
+		}	
+	}
