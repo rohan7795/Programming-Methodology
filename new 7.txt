@@ -1,0 +1,13 @@
+code  4/WwHWFqpIqSxK-lMeIghxgvZuvBY1T8NMceg6WWbC7gFT2b4XYXJIqg3d7ESFKU2Z7e-uFoy2f-1y8W-o01tJL9Y
+	  4/WwFr06OFH7xhLlUYPRJINVToUEs0vLt-RH3ngxLbCUJ4tpDzqe51GCU3tsND7F3-vEgsgaBHCcGiTOx98N9HCBA&scope=https://www.googleapis.com/auth/drive.readonly
+client id = 137130396899-qpjr5o673gkghj3hfvabkvghsiuogb0a.apps.googleusercontent.com
+
+secret  =  plN3gDXROE4Kc0u-NU5Zm2j1
+
+
+post to == https://accounts.google.com/o/oauth2/token
+
+grant_type=authorization_code&redirect_uri=https%3A%2F%2Flocalhost&client_secret=uXutDgNVcumK1i2KY4dBQHxW&client_id=137130396899-86cbd9t23q6mheii77igbuudhnsvk2kb.apps.googleusercontent.com&code=4/WwHWFqpIqSxK-lMeIghxgvZuvBY1T8NMceg6WWbC7gFT2b4XYXJIqg3d7ESFKU2Z7e-uFoy2f-1y8W-o01tJL9Y
+
+
+grant_type=authorization_code&redirect_uri=https%3A%2F%2Flocalhost&client_secret=plN3gDXROE4Kc0u-NU5Zm2j1&client_id=137130396899-qpjr5o673gkghj3hfvabkvghsiuogb0a.apps.googleusercontent.com&code=4/WwFr06OFH7xhLlUYPRJINVToUEs0vLt-RH3ngxLbCUJ4tpDzqe51GCU3tsND7F3-vEgsgaBHCcGiTOx98N9HCBA&scope=https://www.googleapis.com/auth/drive.readonly
